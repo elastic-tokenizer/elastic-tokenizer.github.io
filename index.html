@@ -61,7 +61,8 @@
     <div class="section">
       <p>
       Below, we show examples of the adaptive tokenization capabilities of ElasticTok. For each video, ground truth is the left image and reconstruction the right image.
-      The bottom image shows the percentage of tokens used over time as the video plays.
+      The bottom image shows the percentage of tokens used over each frame as the video plays. Typically, simpler scenes, or scenes with less motion will use fewer frames,
+      while larger transitions such as fast motion or scene cuts will result in brief token usage spikes as our model adaptively encodes.
       </p>
     </div>
 
